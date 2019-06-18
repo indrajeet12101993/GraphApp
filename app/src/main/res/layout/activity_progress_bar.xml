@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvprice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Rs" />
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="30dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:progressDrawable="@drawable/greenprogress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Bank \nAccount" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvprice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Rs" />
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="30dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:progressDrawable="@drawable/greenprogress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Fixed \nDeposit" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvprice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Rs" />
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbar3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="30dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:progressDrawable="@drawable/greenprogress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Regualar \nMutual Fund" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvprice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Rs" />
+
+            <ProgressBar
+                android:id="@+id/vertical_progressbar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="30dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:progressDrawable="@drawable/greenprogress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Fia \nMutual Fund" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/viewstart"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:background="@color/line" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_toRightOf="@id/viewstart"
+            android:background="@drawable/circle" />
+
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="50dp"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv1"
+            android:background="@color/line">
+
+        </View>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_toRightOf="@+id/view1"
+            android:background="@drawable/circle" />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="50dp"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv2"
+            android:background="@color/line">
+
+        </View>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_toRightOf="@+id/view2"
+            android:background="@drawable/circle" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="50dp"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv4"
+            android:background="@color/line">
+
+        </View>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_toRightOf="@+id/view3"
+            android:background="@drawable/circle" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv5"
+            android:background="@color/line">
+
+        </View>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="3y" />
+
+
+
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="5y" />
+
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="7y" />
+
+
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="10y" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
